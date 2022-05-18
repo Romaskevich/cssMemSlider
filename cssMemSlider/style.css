@@ -128,3 +128,18 @@ img {
 #slide4:checked~.wrapper>.text-hidden-wrapper>.text-wrapper {
     transform: translateX(-300%);
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+    .wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        width: 80%;
+    }
+}
