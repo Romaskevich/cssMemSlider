@@ -32,6 +32,7 @@ input {
 }
 
 .text-hidden-wrapper {
+    width: 100%;
     overflow: hidden;
 }
 
@@ -47,7 +48,7 @@ input {
     font-weight: 900;
     width: 100%;
     flex-shrink: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .img {
